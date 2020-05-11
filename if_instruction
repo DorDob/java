@@ -1,0 +1,21 @@
+public class lekcja3 {
+    public static void main(String[] args) {
+        int wiek = 16;
+        if (wiek >= 18) {
+            System.out.println("Możesz pracować, jesteś pełnoletni");
+        } else if (wiek >= 17) {
+            System.out.println("Mało już Ci zostało, niedługo będziesz, mógł pójść do pracy");
+
+        } else {
+            System.out.println("Niestety, nie możesz pracować, jesteś:");
+            //System.out.println("Fałsz");  
+            System.out.println("niepełnoletni");
+        }   
+
+        String info = wiek >= 18 ? "Pełnoletni"  :  "Niepełnoletni"; 
+        System.out.println(info);    
+
+    }
+
+}
+ 
